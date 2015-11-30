@@ -3,7 +3,7 @@ package November;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Challenge243 {
+public class Challenge243Easy {
 
     /*Abundant and Deficient Numbers*/
 
@@ -19,7 +19,7 @@ public class Challenge243 {
             if (sumOfDivisors<number)
                 System.out.println(number + " deficient");
             else if (sumOfDivisors>number)
-                System.out.println(number + " abundant by " + (sumOfDivisors-number));
+                System.out.println(number + " abundant by " + (sumOfDivisors - number));
             else
                 System.out.println(number + " ~~neither~~ deficient");
         }
